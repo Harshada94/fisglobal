@@ -15,3 +15,4 @@ insert into reviews values(2,2,'My Second review','John Smith',5,'2017-10-10 5:2
 insert into reviews values(3,2,'Another review','Alley Walkar',3,'2017-03-10 5:20:17.45');
 
 
+select reviews.reviewers,tittle,author from books  join reviews on books.id=reviews.id; 
